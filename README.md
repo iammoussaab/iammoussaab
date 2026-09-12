@@ -1,6 +1,6 @@
 <!--
   GitHub profile README for Moussaab El Mahraoui.
-  Run `python setup_profile.py` to add verified contact links and the contribution snake.
+  Run `python setup_profile.py` to update verified contact links.
 -->
 
 <p align="center">
@@ -126,15 +126,13 @@ I teach Unity foundations, input and movement, physics, UI, animation, audio, ar
 
 ## 🐍 MINIGAME — GitHub Activity
 
-<!-- CONTRIBUTION_SNAKE_START -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iammoussaab/iammoussaab/output/github-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iammoussaab/iammoussaab/output/github-snake.svg">
-    <img alt="Animated snake moving across Moussaab's GitHub contribution calendar" src="https://raw.githubusercontent.com/iammoussaab/iammoussaab/output/github-snake.svg">
+    <img src="https://raw.githubusercontent.com/iammoussaab/iammoussaab/output/github-snake.svg" width="100%" alt="Moussaab's contribution snake grows as it consumes the GitHub activity grid.">
   </picture>
 </p>
-<!-- CONTRIBUTION_SNAKE_END -->
 
 ## 🚪 PORTALS — Contact and Work
 

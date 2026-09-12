@@ -1,14 +1,9 @@
 name: Generate contribution snake
 
 on:
-  push:
-    branches:
-      - master
-
-  workflow_dispatch:
-
   schedule:
     - cron: "17 3 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,20 +16,24 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+      - name: Check out profile source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - name: Publish snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-          target_branch: output
+      - name: Generate growing snake SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_snake.py --username "${{ github.repository_owner }}" --output-dir dist
+
+      - name: Publish SVGs to output branch
+        shell: bash
+        run: |
+          cp dist/github-snake*.svg "$RUNNER_TEMP/"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --orphan output
+          git rm -rf .
+          cp "$RUNNER_TEMP"/github-snake*.svg .
+          git add github-snake*.svg
+          git commit -m "chore: update contribution snake"
+          git push --force origin output

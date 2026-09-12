@@ -3,3 +3,4 @@ profile-preview.html
 banner-preview.png
 tmp/
 __pycache__/
+dist/

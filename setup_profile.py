@@ -45,20 +45,8 @@ def main() -> None:
 
     links_content = "\n".join(links) or "<!-- No public contact links configured. -->"
 
-    if username:
-        snake_content = f'''<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{safe_username}/{safe_username}/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{safe_username}/{safe_username}/output/github-snake.svg">
-    <img alt="Animated snake moving across Moussaab's GitHub contribution calendar" src="https://raw.githubusercontent.com/{safe_username}/{safe_username}/output/github-snake.svg">
-  </picture>
-</p>'''
-    else:
-        snake_content = "The contribution snake requires a GitHub username. Run this script again after one is available."
-
     text = README.read_text(encoding="utf-8")
     text = replace_section(text, "PROFILE_LINKS", links_content)
-    text = replace_section(text, "CONTRIBUTION_SNAKE", snake_content)
     README.write_text(text, encoding="utf-8")
     print("README.md updated with the verified values provided.")
 

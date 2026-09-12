@@ -26,11 +26,11 @@ You still need to provide:
 
 Copy `README.md`, `assets/`, and `.github/` into the profile repository, then commit and push them to its default branch.
 
-## 4. Enable the contribution snake
+## 4. Enable the contribution minigame
 
-In the repository's **Actions** tab, run **Generate contribution snake** once. The workflow creates an `output` branch and then runs daily. If it cannot push, check **Settings → Actions → General → Workflow permissions** and allow read and write permissions.
+Open **Actions → Generate contribution snake → Run workflow** after the first push. The workflow uses this repository's Python generator to create light and dark SVGs on the `output` branch. It does not use an external snake or deployment action.
 
-The snake URLs are only inserted when a GitHub username is supplied to the setup script. The README remains valid if this optional feature is not configured.
+If publishing is denied, open **Settings → Actions → General → Workflow permissions** and enable read and write permissions.
 
 ## 5. Recommended pinned-repository order
 
