@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Moussaab El Mahraoui — Gameplay Programmer</title>
+  <desc id="desc">Game-inspired profile banner with a pixel sheep, a player character, and Moussaab's core game-development skills.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d18"/>
+      <stop offset="1" stop-color="#15122b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <path d="M0 300 C190 265 310 335 470 302 S790 250 1200 304 V360 H0Z" fill="#0b1324"/>
+  <g opacity=".25" stroke="#7c3aed" fill="none">
+    <path d="M55 54h80l22 22-22 22H55L33 76z"/>
+    <path d="M1045 54h80l22 22-22 22h-80l-22-22z"/>
+  </g>
+  <g transform="translate(80 130)">
+    <rect x="18" y="30" width="72" height="48" rx="12" fill="#f2f4f8"/>
+    <rect x="72" y="18" width="42" height="40" rx="9" fill="#d8dde7"/>
+    <rect x="80" y="26" width="7" height="7" fill="#111827"/>
+    <rect x="101" y="26" width="7" height="7" fill="#111827"/>
+    <rect x="25" y="72" width="10" height="28" fill="#c9cfda"/>
+    <rect x="72" y="72" width="10" height="28" fill="#c9cfda"/>
+    <rect x="106" y="54" width="48" height="9" rx="3" fill="#8b5cf6"/>
+    <rect x="146" y="50" width="30" height="5" fill="#a78bfa"/>
+    <circle cx="54" cy="23" r="15" fill="#f2f4f8"/>
+  </g>
+  <g transform="translate(970 120)">
+    <rect x="35" y="2" width="46" height="46" rx="10" fill="#e5e7eb"/>
+    <rect x="43" y="17" width="8" height="8" fill="#111827"/>
+    <rect x="65" y="17" width="8" height="8" fill="#111827"/>
+    <rect x="25" y="53" width="67" height="74" rx="12" fill="#7c3aed"/>
+    <rect x="7" y="59" width="20" height="58" rx="8" fill="#e5e7eb"/>
+    <rect x="90" y="59" width="20" height="58" rx="8" fill="#e5e7eb"/>
+    <rect x="32" y="124" width="20" height="50" rx="6" fill="#d1d5db"/>
+    <rect x="65" y="124" width="20" height="50" rx="6" fill="#d1d5db"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+    <text x="600" y="80" fill="#c4b5fd" font-size="18" font-weight="700" letter-spacing="5">PLAYER PROFILE LOADED</text>
+    <text x="600" y="145" fill="#ffffff" font-size="42" font-weight="800">MOUSSAAB EL MAHRAOUI</text>
+    <text x="600" y="188" fill="#e5e7eb" font-size="22" font-weight="600">GAMEPLAY PROGRAMMER // GAME DEVELOPER</text>
+    <text x="600" y="226" fill="#c1c8d6" font-size="16">UNITY · UNREAL ENGINE · VR/XR · C# · INTERACTIVE SYSTEMS</text>
+  </g>
+  <g transform="translate(355 266)">
+    <rect width="490" height="18" rx="9" fill="#22283a"/>
+    <rect width="365" height="18" rx="9" fill="#7c3aed"/>
+    <text x="245" y="45" text-anchor="middle" fill="#c1c8d6" font-size="13" font-family="ui-monospace, monospace">XP: ALWAYS BUILDING</text>
+  </g>
+</svg>
