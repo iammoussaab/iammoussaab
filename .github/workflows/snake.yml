@@ -32,7 +32,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch --orphan output
-          git rm -rf .
+          git clean -fdx
           cp "$RUNNER_TEMP"/github-snake*.svg .
           git add github-snake*.svg
           git commit -m "chore: update contribution snake"
