@@ -27,6 +27,7 @@ DY = 18
 CELL = 12
 DURATION = 24
 ACTIVE_FRACTION = 0.86
+GROWTH_STEPS = (3, 4, 6, 9, 13, 18, 26, 38, 55, 80, 115, 160, 220)
 
 
 @dataclass(frozen=True)
@@ -156,7 +157,12 @@ def build_svg(username: str, weeks: list[list[Day]], theme_name: str) -> str:
     points = route_points()
     path = "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y, _, _ in points)
     total = sum(math.dist(points[i][:2], points[i + 1][:2]) for i in range(len(points) - 1))
-    initial = DX * 4
+    growth_lengths = [min(DX * steps, total) for steps in GROWTH_STEPS]
+    growth_lengths.append(total)
+    growth_times = [ACTIVE_FRACTION * index / (len(growth_lengths) - 1) for index in range(len(growth_lengths))]
+    growth_values = ";".join(f"{length:.1f} {total:.1f}" for length in growth_lengths)
+    growth_key_times = ";".join(f"{time:.4f}" for time in growth_times)
+    initial = growth_lengths[0]
     grid = []
     pulses = []
 
@@ -198,7 +204,7 @@ def build_svg(username: str, weeks: list[list[Day]], theme_name: str) -> str:
   <g>{''.join(grid)}</g>
   <g>{''.join(pulses)}</g>
   <path d="{path}" fill="none" stroke="{theme['body']}" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="{initial:.1f} {total:.1f}">
-    <animate attributeName="stroke-dasharray" values="{initial:.1f} {total:.1f};{total:.1f} {total:.1f};{total:.1f} {total:.1f}" keyTimes="0;{ACTIVE_FRACTION};1" dur="{DURATION}s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dasharray" values="{growth_values}" keyTimes="{growth_key_times}" calcMode="discrete" dur="{DURATION}s" repeatCount="indefinite"/>
   </path>
   <g>
     <animateMotion path="{path}" keyPoints="0;1;1" keyTimes="0;{ACTIVE_FRACTION};1" calcMode="linear" dur="{DURATION}s" rotate="auto" repeatCount="indefinite"/>
