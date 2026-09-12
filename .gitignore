@@ -1,0 +1,5 @@
+# Local preview and audit artifacts
+profile-preview.html
+banner-preview.png
+tmp/
+__pycache__/

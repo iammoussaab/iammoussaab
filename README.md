@@ -16,16 +16,18 @@
 Based in Morocco · Open to game-development and immersive-technology opportunities
 
 <!-- PROFILE_LINKS_START -->
-<!-- Add verified portfolio, LinkedIn, email, and itch.io links with setup_profile.py. -->
+[![GitHub](https://img.shields.io/badge/GITHUB-PROFILE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iammoussaab)
+[![ArtStation](https://img.shields.io/badge/ARTSTATION-PORTFOLIO-13AFF0?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/moussaabelmahraoui5)
+[![Email](https://img.shields.io/badge/EMAIL-CONTACT-7C3AED?style=for-the-badge)](mailto:mossabelmahraoui@gmail.com)
 <!-- PROFILE_LINKS_END -->
 
 </div>
 
 ## 🎮 PLAYER PROFILE — About Me
 
-I build games, immersive experiences, gameplay systems, and interactive prototypes. My core work is in **Unity, C#, gameplay programming, and VR/XR**, with additional experience in Unreal Engine and interactive software.
+I build games, immersive experiences, gameplay systems, and interactive prototypes across mobile, PC, VR/XR, and interactive installations. My core work is in **Unity, C#, gameplay programming, and VR/XR**, with professional Unreal Engine 5 experience.
 
-I care about systems that are fun to use, readable, maintainable, and quick to iterate on.
+My work includes player controllers, camera systems, gameplay AI, interaction mechanics, UI, progression, performance profiling, and maintainable gameplay architecture.
 
 ## 🐑 MAIN QUEST — Sheep with Guns
 
@@ -80,23 +82,73 @@ A drone-pilot training platform, initially focused on agriculture. It is a softw
 ## 🏆 ACHIEVEMENTS — Experience
 
 - **3rd place — Inwi Student Mobile Game Competition:** game development and prototyping.
-- **Game Development Instructor:** taught Unity foundations, gameplay systems, architecture, UI, 2D, VFX, deployment, save systems, and design patterns.
-- **VR/AR Workshops:** delivered and contributed to immersive-development workshops and prototypes.
-- **Commercial Unity Work:** contributed to client-facing Unity prototypes, mobile projects, interactive installations, and gameplay systems.
+- **Unity Performance Optimization:** improved average frame rate by approximately 35% and reduced draw calls by 25% on target hardware at RPPG Interactive.
+- **Game Development Instructor:** designed and delivered Unity curricula for beginner through advanced learners at Geeks Institute / LaStartupStation.
+- **VR Development:** built Unity training environments and anatomical assets used for medical education at Institut National d'Oncologie.
+
+## 💼 CAMPAIGN HISTORY — Professional Experience
+
+### Gameplay Programmer / Unreal Engine Developer · Ribat Studios
+
+`March 2026 — August 2026`
+
+Developed and refactored first-person systems for **Kasbah** in Unreal Engine 5, including hydration, respawn, dialogue, journal, tutorials, interactions, audio, UI state management, AI controllers, Behavior Trees, and reusable Blueprint components. Produced technical documentation and collaborated in an Agile production environment using Diversion version control.
+
+### Gaming Instructor · Geeks Institute / LaStartupStation
+
+`October 2025 — August 2026`
+
+Designed and delivered Unity curricula, supervised projects from prototype to playable demo, and provided code review, debugging, architecture, and game-design guidance.
+
+### Game Developer / Unity Developer · RPPG Interactive
+
+`August 2025 — February 2026`
+
+Implemented a player controller, third-person camera rig, UI state machine, game-state manager, physics interactions, and enemy Behavior Tree AI. Optimized the rendering pipeline and collaborated with designers, artists, and engineers throughout a six-month production cycle.
+
+### Earlier Interactive-Technology Experience
+
+- **Full Stack Developer · Cyberleet (2024):** built a hospital appointment platform with a REST API and responsive interface.
+- **Metaverse Developer · NEODMCC (2023):** created Unity and Blender environments and developed a multiplayer poker module.
+- **VR Developer · Institut National d'Oncologie (2022):** built interactive Unity training environments and anatomical 3D assets.
 
 ## 🧑‍🏫 GUILD ROLE — Teaching and Mentoring
 
 I teach Unity foundations, input and movement, physics, UI, animation, audio, architecture, VFX, deployment, save systems, and design patterns. My teaching approach is simple: understand the system, build it cleanly, and then make it feel good.
 
+## 🎓 TRAINING PATH — Education
+
+- **Video Game Creator** — ISART Digital / Université Internationale de Rabat, 2025
+- **Bachelor's Degree in Software Development** — SUPEMIR, 2024–2025
+- **Software Engineer Program** — ALX Africa, 2023–2024
+- **AR/VR Developer and Designer** — Interactive Digital Centre / UM6P, 2022
+- **Full Stack Development Specialist** — ISTA NTIC SYBA / OFPPT, 2021–2023
+
 ## 🐍 MINIGAME — GitHub Activity
 
 <!-- CONTRIBUTION_SNAKE_START -->
-The contribution snake will appear here after a GitHub username is configured and the included workflow runs successfully.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iammoussaab/iammoussaab/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iammoussaab/iammoussaab/output/github-snake.svg">
+    <img alt="Animated snake moving across Moussaab's GitHub contribution calendar" src="https://raw.githubusercontent.com/iammoussaab/iammoussaab/output/github-snake.svg">
+  </picture>
+</p>
 <!-- CONTRIBUTION_SNAKE_END -->
 
 ## 🚪 PORTALS — Contact and Work
 
-Contact and project links will be shown at the top after verified URLs are configured. Until then, my public work is available through the repositories pinned below this profile README.
+<div align="center">
+
+[![Explore GitHub](https://img.shields.io/badge/EXPLORE-GITHUB-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iammoussaab)
+[![View ArtStation](https://img.shields.io/badge/VIEW-ARTSTATION-13AFF0?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/moussaabelmahraoui5)
+[![Send Email](https://img.shields.io/badge/SEND-EMAIL-A78BFA?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mossabelmahraoui@gmail.com)
+
+</div>
+
+<p align="center">
+  <img src="./assets/contact-portal.svg" width="100%" alt="Ready for the next quest? Let's build something playable.">
+</p>
 
 <div align="center">
 

@@ -26,13 +26,14 @@ def badge(label: str, action: str, color: str, destination: str) -> str:
 
 
 def main() -> None:
-    username = input("GitHub username: ").strip()
-    email = input("Public email (optional): ").strip()
+    username = input("GitHub username [iammoussaab]: ").strip() or "iammoussaab"
+    email = input("Public email [mossabelmahraoui@gmail.com]: ").strip() or "mossabelmahraoui@gmail.com"
     linkedin = input("LinkedIn URL (optional): ").strip()
-    portfolio = input("Portfolio URL (optional): ").strip()
+    portfolio = input("Portfolio URL [ArtStation]: ").strip() or "https://www.artstation.com/moussaabelmahraoui5"
     itch = input("Itch.io URL (optional): ").strip()
 
-    links = []
+    safe_username = quote(username, safe="-")
+    links = [badge("GITHUB", "PROFILE", "181717", f"https://github.com/{safe_username}")]
     if portfolio:
         links.append(badge("PORTFOLIO", "ENTER", "111827", escape(portfolio, quote=True)))
     if linkedin:
@@ -45,7 +46,6 @@ def main() -> None:
     links_content = "\n".join(links) or "<!-- No public contact links configured. -->"
 
     if username:
-        safe_username = quote(username, safe="-")
         snake_content = f'''<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{safe_username}/{safe_username}/output/github-snake-dark.svg">

@@ -14,14 +14,11 @@ Run:
 python setup_profile.py
 ```
 
-The script asks for your GitHub username and optional public email, LinkedIn, portfolio, and itch.io URLs. Blank optional fields are omitted. Review the generated links before publishing; the script does not verify ownership or availability.
+The script includes the GitHub username, public email, and ArtStation URL verified from the current resume. It also asks for optional LinkedIn and itch.io URLs; blank optional fields are omitted. Review generated links before publishing.
 
 You still need to provide:
 
-- GitHub username
-- Public email, if desired
 - LinkedIn URL, if available
-- Portfolio URL, if available
 - itch.io URL, if available
 - Repository, demo, video, or media links for each featured project
 
