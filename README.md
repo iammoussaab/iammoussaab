@@ -86,32 +86,6 @@ A drone-pilot training platform, initially focused on agriculture. It is a softw
 - **Game Development Instructor:** designed and delivered Unity curricula for beginner through advanced learners at Geeks Institute / LaStartupStation.
 - **VR Development:** built Unity training environments and anatomical assets used for medical education at Institut National d'Oncologie.
 
-## 💼 CAMPAIGN HISTORY — Professional Experience
-
-### Gameplay Programmer / Unreal Engine Developer · Ribat Studios
-
-`March 2026 — August 2026`
-
-Developed and refactored first-person systems for **Kasbah** in Unreal Engine 5, including hydration, respawn, dialogue, journal, tutorials, interactions, audio, UI state management, AI controllers, Behavior Trees, and reusable Blueprint components. Produced technical documentation and collaborated in an Agile production environment using Diversion version control.
-
-### Gaming Instructor · Geeks Institute / LaStartupStation
-
-`October 2025 — August 2026`
-
-Designed and delivered Unity curricula, supervised projects from prototype to playable demo, and provided code review, debugging, architecture, and game-design guidance.
-
-### Game Developer / Unity Developer · RPPG Interactive
-
-`August 2025 — February 2026`
-
-Implemented a player controller, third-person camera rig, UI state machine, game-state manager, physics interactions, and enemy Behavior Tree AI. Optimized the rendering pipeline and collaborated with designers, artists, and engineers throughout a six-month production cycle.
-
-### Earlier Interactive-Technology Experience
-
-- **Full Stack Developer · Cyberleet (2024):** built a hospital appointment platform with a REST API and responsive interface.
-- **Metaverse Developer · NEODMCC (2023):** created Unity and Blender environments and developed a multiplayer poker module.
-- **VR Developer · Institut National d'Oncologie (2022):** built interactive Unity training environments and anatomical 3D assets.
-
 ## 🧑‍🏫 GUILD ROLE — Teaching and Mentoring
 
 I teach Unity foundations, input and movement, physics, UI, animation, audio, architecture, VFX, deployment, save systems, and design patterns. My teaching approach is simple: understand the system, build it cleanly, and then make it feel good.
